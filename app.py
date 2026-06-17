@@ -95,7 +95,7 @@ def ordinal_acc1(y_true, y_pred, order):
 #                     DATA
 # ===============================================================
 
-_MST_BASE = "/mnt/e/Eduarda/Mestrado/monkScale/ISIC"
+_MST_BASE = os.path.dirname(os.path.abspath(__file__))
 
 _PAPER_CMAP = mcolors.LinearSegmentedColormap.from_list(
     "paper_blue_orange", ["#169BFF", "#F2F2F2", "#FF9800"]
